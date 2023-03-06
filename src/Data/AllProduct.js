@@ -1,0 +1,296 @@
+export const getAllProductData = () => {
+    return [
+        {
+            id: 1,
+            title: "GUYER Chair",
+            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id lobortis dui, a faucibus arcu. Suspendisse et neque dui. Aliquam ut condimentum sapien. Nunc fringilla et nibh in faucibus. Vivamus leo dui, vestibulum vitae lectus fermentum, rhoncus interdum eros. Mauris a sapien pulvinar, pharetra lorem sed, vulputate massa. Proin congue purus ac dui molestie eleifend. Sed id condimentum augue. Proin molestie viverra felis, quis ornare nulla ullamcorper vel. Morbi neque tellus, egestas pellentesque blandit ac, ultrices mollis nulla. Aenean vel placerat ligula. Phasellus in tristique turpis. Maecenas tristique ipsum orci, vitae sagittis felis convallis nec. Morbi molestie diam lectus, a consectetur sapien malesuada sit amet. Nunc elementum neque et semper laoreet. Cras vehicula massa ac arcu gravida commodo. Curabitur sit amet accumsan quam, a condimentum dui. Nunc a justo sed mi cursus rhoncus. Quisque finibus enim id massa fringilla, sit amet condimentum metus vulputate. Maecenas eget arcu vitae erat euismod bibendum eu nec velit. Mauris quis lorem pharetra, volutpat nulla in, consequat nisi. Sed cursus nunc vitae posuere eleifend. Pellentesque imperdiet maximus massa, eget congue sem ultricies ac. Morbi sagittis sagittis semper. Duis felis urna, vehicula sit amet dapibus at, viverra at purus. Nunc at ligula velit.",
+            regularPrice: 55.00,
+            price: 50.00,
+            sku: "HN001",
+            quantity: 100,
+            review: 42,
+            category: "Queen Headboard",
+            image: require("../assets/images/product/product-1.jpg"),
+            images: [
+                require("../assets/images/product/product-1.jpg"),
+                require("../assets/images/product/product-3.jpg"),
+                require("../assets/images/product/product-4.jpg"),
+                require("../assets/images/product/product-5.jpg"),
+                require("../assets/images/product/product-6.jpg"),
+            ]
+        },
+        {
+            id: 2,
+            title: "MADELINE sofa",
+            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id lobortis dui, a faucibus arcu. Suspendisse et neque dui. Aliquam ut condimentum sapien. Nunc fringilla et nibh in faucibus. Vivamus leo dui, vestibulum vitae lectus fermentum, rhoncus interdum eros. Mauris a sapien pulvinar, pharetra lorem sed, vulputate massa. Proin congue purus ac dui molestie eleifend. Sed id condimentum augue. Proin molestie viverra felis, quis ornare nulla ullamcorper vel. Morbi neque tellus, egestas pellentesque blandit ac, ultrices mollis nulla. Aenean vel placerat ligula. Phasellus in tristique turpis. Maecenas tristique ipsum orci, vitae sagittis felis convallis nec. Morbi molestie diam lectus, a consectetur sapien malesuada sit amet. Nunc elementum neque et semper laoreet. Cras vehicula massa ac arcu gravida commodo. Curabitur sit amet accumsan quam, a condimentum dui. Nunc a justo sed mi cursus rhoncus. Quisque finibus enim id massa fringilla, sit amet condimentum metus vulputate. Maecenas eget arcu vitae erat euismod bibendum eu nec velit. Mauris quis lorem pharetra, volutpat nulla in, consequat nisi. Sed cursus nunc vitae posuere eleifend. Pellentesque imperdiet maximus massa, eget congue sem ultricies ac. Morbi sagittis sagittis semper. Duis felis urna, vehicula sit amet dapibus at, viverra at purus. Nunc at ligula velit.",
+            regularPrice: 100.00,
+            price: 98.00,
+            sku: "HN002",
+            quantity: 100,
+            review: 10,
+            category: "Fabric Sofa Bed",
+            image: require("../assets/images/product/product-2.jpg"),
+            images: [
+                require("../assets/images/product/product-2.jpg"),
+                require("../assets/images/product/product-3.jpg"),
+                require("../assets/images/product/product-4.jpg"),
+                require("../assets/images/product/product-5.jpg"),
+                require("../assets/images/product/product-6.jpg"),
+            ]
+        },
+        {
+            id: 3,
+            title: "PELAGIA Lounge",
+            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id lobortis dui, a faucibus arcu. Suspendisse et neque dui. Aliquam ut condimentum sapien. Nunc fringilla et nibh in faucibus. Vivamus leo dui, vestibulum vitae lectus fermentum, rhoncus interdum eros. Mauris a sapien pulvinar, pharetra lorem sed, vulputate massa. Proin congue purus ac dui molestie eleifend. Sed id condimentum augue. Proin molestie viverra felis, quis ornare nulla ullamcorper vel. Morbi neque tellus, egestas pellentesque blandit ac, ultrices mollis nulla. Aenean vel placerat ligula. Phasellus in tristique turpis. Maecenas tristique ipsum orci, vitae sagittis felis convallis nec. Morbi molestie diam lectus, a consectetur sapien malesuada sit amet. Nunc elementum neque et semper laoreet. Cras vehicula massa ac arcu gravida commodo. Curabitur sit amet accumsan quam, a condimentum dui. Nunc a justo sed mi cursus rhoncus. Quisque finibus enim id massa fringilla, sit amet condimentum metus vulputate. Maecenas eget arcu vitae erat euismod bibendum eu nec velit. Mauris quis lorem pharetra, volutpat nulla in, consequat nisi. Sed cursus nunc vitae posuere eleifend. Pellentesque imperdiet maximus massa, eget congue sem ultricies ac. Morbi sagittis sagittis semper. Duis felis urna, vehicula sit amet dapibus at, viverra at purus. Nunc at ligula velit.",
+            regularPrice: 80.20,
+            price: 78.00,
+            sku: "HN003",
+            quantity: 100,
+            review: 20,
+            category: "Outdoor Modular",
+            image: require("../assets/images/product/product-3.jpg"),
+            images: [
+                require("../assets/images/product/product-3.jpg"),
+                require("../assets/images/product/product-7.jpg"),
+                require("../assets/images/product/product-4.jpg"),
+                require("../assets/images/product/product-5.jpg"),
+                require("../assets/images/product/product-6.jpg"),
+            ]
+        },
+        {
+            id: 4,
+            title: "Black ARCHIE",
+            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id lobortis dui, a faucibus arcu. Suspendisse et neque dui. Aliquam ut condimentum sapien. Nunc fringilla et nibh in faucibus. Vivamus leo dui, vestibulum vitae lectus fermentum, rhoncus interdum eros. Mauris a sapien pulvinar, pharetra lorem sed, vulputate massa. Proin congue purus ac dui molestie eleifend. Sed id condimentum augue. Proin molestie viverra felis, quis ornare nulla ullamcorper vel. Morbi neque tellus, egestas pellentesque blandit ac, ultrices mollis nulla. Aenean vel placerat ligula. Phasellus in tristique turpis. Maecenas tristique ipsum orci, vitae sagittis felis convallis nec. Morbi molestie diam lectus, a consectetur sapien malesuada sit amet. Nunc elementum neque et semper laoreet. Cras vehicula massa ac arcu gravida commodo. Curabitur sit amet accumsan quam, a condimentum dui. Nunc a justo sed mi cursus rhoncus. Quisque finibus enim id massa fringilla, sit amet condimentum metus vulputate. Maecenas eget arcu vitae erat euismod bibendum eu nec velit. Mauris quis lorem pharetra, volutpat nulla in, consequat nisi. Sed cursus nunc vitae posuere eleifend. Pellentesque imperdiet maximus massa, eget congue sem ultricies ac. Morbi sagittis sagittis semper. Duis felis urna, vehicula sit amet dapibus at, viverra at purus. Nunc at ligula velit.",
+            regularPrice: 70.50,
+            price: 67.00,
+            sku: "HN004",
+            quantity: 100,
+            review: 30,
+            category: "Black Bedside",
+            image: require("../assets/images/product/product-4.jpg"),
+            images: [
+                require("../assets/images/product/product-4.jpg"),
+                require("../assets/images/product/product-3.jpg"),
+                require("../assets/images/product/product-4.jpg"),
+                require("../assets/images/product/product-5.jpg"),
+                require("../assets/images/product/product-6.jpg"),
+            ]
+        },
+        {
+            id: 5,
+            title: "BIANCO CHAIR",
+            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id lobortis dui, a faucibus arcu. Suspendisse et neque dui. Aliquam ut condimentum sapien. Nunc fringilla et nibh in faucibus. Vivamus leo dui, vestibulum vitae lectus fermentum, rhoncus interdum eros. Mauris a sapien pulvinar, pharetra lorem sed, vulputate massa. Proin congue purus ac dui molestie eleifend. Sed id condimentum augue. Proin molestie viverra felis, quis ornare nulla ullamcorper vel. Morbi neque tellus, egestas pellentesque blandit ac, ultrices mollis nulla. Aenean vel placerat ligula. Phasellus in tristique turpis. Maecenas tristique ipsum orci, vitae sagittis felis convallis nec. Morbi molestie diam lectus, a consectetur sapien malesuada sit amet. Nunc elementum neque et semper laoreet. Cras vehicula massa ac arcu gravida commodo. Curabitur sit amet accumsan quam, a condimentum dui. Nunc a justo sed mi cursus rhoncus. Quisque finibus enim id massa fringilla, sit amet condimentum metus vulputate. Maecenas eget arcu vitae erat euismod bibendum eu nec velit. Mauris quis lorem pharetra, volutpat nulla in, consequat nisi. Sed cursus nunc vitae posuere eleifend. Pellentesque imperdiet maximus massa, eget congue sem ultricies ac. Morbi sagittis sagittis semper. Duis felis urna, vehicula sit amet dapibus at, viverra at purus. Nunc at ligula velit.",
+            regularPrice: 60.99,
+            price: 60.00,
+            sku: "HN005",
+            quantity: 100,
+            review: 50,
+            category: "Fabric Accent Chair",
+            image: require("../assets/images/product/product-5.jpg"),
+            images: [
+                require("../assets/images/product/product-5.jpg"),
+                require("../assets/images/product/product-3.jpg"),
+                require("../assets/images/product/product-4.jpg"),
+                require("../assets/images/product/product-5.jpg"),
+                require("../assets/images/product/product-6.jpg"),
+            ]
+        },
+        {
+            id: 6,
+            title: "WHITE BED",
+            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id lobortis dui, a faucibus arcu. Suspendisse et neque dui. Aliquam ut condimentum sapien. Nunc fringilla et nibh in faucibus. Vivamus leo dui, vestibulum vitae lectus fermentum, rhoncus interdum eros. Mauris a sapien pulvinar, pharetra lorem sed, vulputate massa. Proin congue purus ac dui molestie eleifend. Sed id condimentum augue. Proin molestie viverra felis, quis ornare nulla ullamcorper vel. Morbi neque tellus, egestas pellentesque blandit ac, ultrices mollis nulla. Aenean vel placerat ligula. Phasellus in tristique turpis. Maecenas tristique ipsum orci, vitae sagittis felis convallis nec. Morbi molestie diam lectus, a consectetur sapien malesuada sit amet. Nunc elementum neque et semper laoreet. Cras vehicula massa ac arcu gravida commodo. Curabitur sit amet accumsan quam, a condimentum dui. Nunc a justo sed mi cursus rhoncus. Quisque finibus enim id massa fringilla, sit amet condimentum metus vulputate. Maecenas eget arcu vitae erat euismod bibendum eu nec velit. Mauris quis lorem pharetra, volutpat nulla in, consequat nisi. Sed cursus nunc vitae posuere eleifend. Pellentesque imperdiet maximus massa, eget congue sem ultricies ac. Morbi sagittis sagittis semper. Duis felis urna, vehicula sit amet dapibus at, viverra at purus. Nunc at ligula velit.",
+            regularPrice: 52.00,
+            price: 50.00,
+            sku: "HN006",
+            quantity: 100,
+            review: 60,
+            category: "Outdoor Modular",
+            image: require("../assets/images/product/product-6.jpg"),
+            images: [
+                require("../assets/images/product/product-6.jpg"),
+                require("../assets/images/product/product-3.jpg"),
+                require("../assets/images/product/product-4.jpg"),
+                require("../assets/images/product/product-5.jpg"),
+                require("../assets/images/product/product-6.jpg"),
+            ]
+        },
+        {
+            id: 7,
+            title: "AVERY BED",
+            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id lobortis dui, a faucibus arcu. Suspendisse et neque dui. Aliquam ut condimentum sapien. Nunc fringilla et nibh in faucibus. Vivamus leo dui, vestibulum vitae lectus fermentum, rhoncus interdum eros. Mauris a sapien pulvinar, pharetra lorem sed, vulputate massa. Proin congue purus ac dui molestie eleifend. Sed id condimentum augue. Proin molestie viverra felis, quis ornare nulla ullamcorper vel. Morbi neque tellus, egestas pellentesque blandit ac, ultrices mollis nulla. Aenean vel placerat ligula. Phasellus in tristique turpis. Maecenas tristique ipsum orci, vitae sagittis felis convallis nec. Morbi molestie diam lectus, a consectetur sapien malesuada sit amet. Nunc elementum neque et semper laoreet. Cras vehicula massa ac arcu gravida commodo. Curabitur sit amet accumsan quam, a condimentum dui. Nunc a justo sed mi cursus rhoncus. Quisque finibus enim id massa fringilla, sit amet condimentum metus vulputate. Maecenas eget arcu vitae erat euismod bibendum eu nec velit. Mauris quis lorem pharetra, volutpat nulla in, consequat nisi. Sed cursus nunc vitae posuere eleifend. Pellentesque imperdiet maximus massa, eget congue sem ultricies ac. Morbi sagittis sagittis semper. Duis felis urna, vehicula sit amet dapibus at, viverra at purus. Nunc at ligula velit.",
+            regularPrice: 48.00,
+            price: 45.00,
+            sku: "HN007",
+            quantity: 100,
+            review: 70,
+            category: "Fabric Sofa Bed",
+            image: require("../assets/images/product/product-7.jpg"),
+            images: [
+                require("../assets/images/product/product-7.jpg"),
+                require("../assets/images/product/product-3.jpg"),
+                require("../assets/images/product/product-4.jpg"),
+                require("../assets/images/product/product-5.jpg"),
+                require("../assets/images/product/product-6.jpg"),
+            ]
+        },
+        {
+            id: 8,
+            title: "PELAGIA LOUNGE",
+            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id lobortis dui, a faucibus arcu. Suspendisse et neque dui. Aliquam ut condimentum sapien. Nunc fringilla et nibh in faucibus. Vivamus leo dui, vestibulum vitae lectus fermentum, rhoncus interdum eros. Mauris a sapien pulvinar, pharetra lorem sed, vulputate massa. Proin congue purus ac dui molestie eleifend. Sed id condimentum augue. Proin molestie viverra felis, quis ornare nulla ullamcorper vel. Morbi neque tellus, egestas pellentesque blandit ac, ultrices mollis nulla. Aenean vel placerat ligula. Phasellus in tristique turpis. Maecenas tristique ipsum orci, vitae sagittis felis convallis nec. Morbi molestie diam lectus, a consectetur sapien malesuada sit amet. Nunc elementum neque et semper laoreet. Cras vehicula massa ac arcu gravida commodo. Curabitur sit amet accumsan quam, a condimentum dui. Nunc a justo sed mi cursus rhoncus. Quisque finibus enim id massa fringilla, sit amet condimentum metus vulputate. Maecenas eget arcu vitae erat euismod bibendum eu nec velit. Mauris quis lorem pharetra, volutpat nulla in, consequat nisi. Sed cursus nunc vitae posuere eleifend. Pellentesque imperdiet maximus massa, eget congue sem ultricies ac. Morbi sagittis sagittis semper. Duis felis urna, vehicula sit amet dapibus at, viverra at purus. Nunc at ligula velit.",
+            regularPrice: 45.00,
+            price: 42.00,
+            sku: "HN008",
+            quantity: 100,
+            review: 80,
+            category: "Queen Headboard",
+            image: require("../assets/images/product/product-8.jpg"),
+            images: [
+                require("../assets/images/product/product-8.jpg"),
+                require("../assets/images/product/product-3.jpg"),
+                require("../assets/images/product/product-4.jpg"),
+                require("../assets/images/product/product-5.jpg"),
+                require("../assets/images/product/product-6.jpg"),
+            ]
+        },
+        {
+            id: 9,
+            title: "NHART BAG",
+            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id lobortis dui, a faucibus arcu. Suspendisse et neque dui. Aliquam ut condimentum sapien. Nunc fringilla et nibh in faucibus. Vivamus leo dui, vestibulum vitae lectus fermentum, rhoncus interdum eros. Mauris a sapien pulvinar, pharetra lorem sed, vulputate massa. Proin congue purus ac dui molestie eleifend. Sed id condimentum augue. Proin molestie viverra felis, quis ornare nulla ullamcorper vel. Morbi neque tellus, egestas pellentesque blandit ac, ultrices mollis nulla. Aenean vel placerat ligula. Phasellus in tristique turpis. Maecenas tristique ipsum orci, vitae sagittis felis convallis nec. Morbi molestie diam lectus, a consectetur sapien malesuada sit amet. Nunc elementum neque et semper laoreet. Cras vehicula massa ac arcu gravida commodo. Curabitur sit amet accumsan quam, a condimentum dui. Nunc a justo sed mi cursus rhoncus. Quisque finibus enim id massa fringilla, sit amet condimentum metus vulputate. Maecenas eget arcu vitae erat euismod bibendum eu nec velit. Mauris quis lorem pharetra, volutpat nulla in, consequat nisi. Sed cursus nunc vitae posuere eleifend. Pellentesque imperdiet maximus massa, eget congue sem ultricies ac. Morbi sagittis sagittis semper. Duis felis urna, vehicula sit amet dapibus at, viverra at purus. Nunc at ligula velit.",
+            regularPrice: 51.00,
+            price: 49.00,
+            sku: "HN009",
+            quantity: 100,
+            review: 90,
+            category: "Unique Bag",
+            image: require("../assets/images/product/product-9.jpg"),
+            images: [
+                require("../assets/images/product/product-9.jpg"),
+                require("../assets/images/product/product-3.jpg"),
+                require("../assets/images/product/product-4.jpg"),
+                require("../assets/images/product/product-5.jpg"),
+                require("../assets/images/product/product-6.jpg"),
+            ]
+        },
+        {
+            id: 10,
+            title: "REGABR PAD",
+            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id lobortis dui, a faucibus arcu. Suspendisse et neque dui. Aliquam ut condimentum sapien. Nunc fringilla et nibh in faucibus. Vivamus leo dui, vestibulum vitae lectus fermentum, rhoncus interdum eros. Mauris a sapien pulvinar, pharetra lorem sed, vulputate massa. Proin congue purus ac dui molestie eleifend. Sed id condimentum augue. Proin molestie viverra felis, quis ornare nulla ullamcorper vel. Morbi neque tellus, egestas pellentesque blandit ac, ultrices mollis nulla. Aenean vel placerat ligula. Phasellus in tristique turpis. Maecenas tristique ipsum orci, vitae sagittis felis convallis nec. Morbi molestie diam lectus, a consectetur sapien malesuada sit amet. Nunc elementum neque et semper laoreet. Cras vehicula massa ac arcu gravida commodo. Curabitur sit amet accumsan quam, a condimentum dui. Nunc a justo sed mi cursus rhoncus. Quisque finibus enim id massa fringilla, sit amet condimentum metus vulputate. Maecenas eget arcu vitae erat euismod bibendum eu nec velit. Mauris quis lorem pharetra, volutpat nulla in, consequat nisi. Sed cursus nunc vitae posuere eleifend. Pellentesque imperdiet maximus massa, eget congue sem ultricies ac. Morbi sagittis sagittis semper. Duis felis urna, vehicula sit amet dapibus at, viverra at purus. Nunc at ligula velit.",
+            regularPrice: 120.00,
+            price: 105.00,
+            sku: "HN0010",
+            quantity: 100,
+            review: 100,
+            category: "Gaming",
+            image: require("../assets/images/product/product-10.jpg"),
+            images: [
+                require("../assets/images/product/product-10.jpg"),
+                require("../assets/images/product/product-3.jpg"),
+                require("../assets/images/product/product-4.jpg"),
+                require("../assets/images/product/product-5.jpg"),
+                require("../assets/images/product/product-6.jpg"),
+            ]
+        },
+        {
+            id: 11,
+            title: "HEART IPAD",
+            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id lobortis dui, a faucibus arcu. Suspendisse et neque dui. Aliquam ut condimentum sapien. Nunc fringilla et nibh in faucibus. Vivamus leo dui, vestibulum vitae lectus fermentum, rhoncus interdum eros. Mauris a sapien pulvinar, pharetra lorem sed, vulputate massa. Proin congue purus ac dui molestie eleifend. Sed id condimentum augue. Proin molestie viverra felis, quis ornare nulla ullamcorper vel. Morbi neque tellus, egestas pellentesque blandit ac, ultrices mollis nulla. Aenean vel placerat ligula. Phasellus in tristique turpis. Maecenas tristique ipsum orci, vitae sagittis felis convallis nec. Morbi molestie diam lectus, a consectetur sapien malesuada sit amet. Nunc elementum neque et semper laoreet. Cras vehicula massa ac arcu gravida commodo. Curabitur sit amet accumsan quam, a condimentum dui. Nunc a justo sed mi cursus rhoncus. Quisque finibus enim id massa fringilla, sit amet condimentum metus vulputate. Maecenas eget arcu vitae erat euismod bibendum eu nec velit. Mauris quis lorem pharetra, volutpat nulla in, consequat nisi. Sed cursus nunc vitae posuere eleifend. Pellentesque imperdiet maximus massa, eget congue sem ultricies ac. Morbi sagittis sagittis semper. Duis felis urna, vehicula sit amet dapibus at, viverra at purus. Nunc at ligula velit.",
+            regularPrice: 98.00,
+            price: 96.00,
+            sku: "HN0011",
+            quantity: 100,
+            review: 120,
+            category: "Gaming",
+            image: require("../assets/images/product/product-11.jpg"),
+            images: [
+                require("../assets/images/product/product-11.jpg"),
+                require("../assets/images/product/product-3.jpg"),
+                require("../assets/images/product/product-4.jpg"),
+                require("../assets/images/product/product-5.jpg"),
+                require("../assets/images/product/product-6.jpg"),
+            ]
+        },
+        {
+            id: 12,
+            title: "JPATH Chair",
+            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id lobortis dui, a faucibus arcu. Suspendisse et neque dui. Aliquam ut condimentum sapien. Nunc fringilla et nibh in faucibus. Vivamus leo dui, vestibulum vitae lectus fermentum, rhoncus interdum eros. Mauris a sapien pulvinar, pharetra lorem sed, vulputate massa. Proin congue purus ac dui molestie eleifend. Sed id condimentum augue. Proin molestie viverra felis, quis ornare nulla ullamcorper vel. Morbi neque tellus, egestas pellentesque blandit ac, ultrices mollis nulla. Aenean vel placerat ligula. Phasellus in tristique turpis. Maecenas tristique ipsum orci, vitae sagittis felis convallis nec. Morbi molestie diam lectus, a consectetur sapien malesuada sit amet. Nunc elementum neque et semper laoreet. Cras vehicula massa ac arcu gravida commodo. Curabitur sit amet accumsan quam, a condimentum dui. Nunc a justo sed mi cursus rhoncus. Quisque finibus enim id massa fringilla, sit amet condimentum metus vulputate. Maecenas eget arcu vitae erat euismod bibendum eu nec velit. Mauris quis lorem pharetra, volutpat nulla in, consequat nisi. Sed cursus nunc vitae posuere eleifend. Pellentesque imperdiet maximus massa, eget congue sem ultricies ac. Morbi sagittis sagittis semper. Duis felis urna, vehicula sit amet dapibus at, viverra at purus. Nunc at ligula velit.",
+            regularPrice: 170.40,
+            price: 150.00,
+            sku: "HN0012",
+            quantity: 100,
+            review: 130,
+            category: "Fabric Accent Chair",
+            image: require("../assets/images/product/product-12.jpg"),
+            images: [
+                require("../assets/images/product/product-12.jpg"),
+                require("../assets/images/product/product-3.jpg"),
+                require("../assets/images/product/product-4.jpg"),
+                require("../assets/images/product/product-5.jpg"),
+                require("../assets/images/product/product-6.jpg"),
+            ]
+        },
+        {
+            id: 13,
+            title: "NAVY WATCH",
+            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id lobortis dui, a faucibus arcu. Suspendisse et neque dui. Aliquam ut condimentum sapien. Nunc fringilla et nibh in faucibus. Vivamus leo dui, vestibulum vitae lectus fermentum, rhoncus interdum eros. Mauris a sapien pulvinar, pharetra lorem sed, vulputate massa. Proin congue purus ac dui molestie eleifend. Sed id condimentum augue. Proin molestie viverra felis, quis ornare nulla ullamcorper vel. Morbi neque tellus, egestas pellentesque blandit ac, ultrices mollis nulla. Aenean vel placerat ligula. Phasellus in tristique turpis. Maecenas tristique ipsum orci, vitae sagittis felis convallis nec. Morbi molestie diam lectus, a consectetur sapien malesuada sit amet. Nunc elementum neque et semper laoreet. Cras vehicula massa ac arcu gravida commodo. Curabitur sit amet accumsan quam, a condimentum dui. Nunc a justo sed mi cursus rhoncus. Quisque finibus enim id massa fringilla, sit amet condimentum metus vulputate. Maecenas eget arcu vitae erat euismod bibendum eu nec velit. Mauris quis lorem pharetra, volutpat nulla in, consequat nisi. Sed cursus nunc vitae posuere eleifend. Pellentesque imperdiet maximus massa, eget congue sem ultricies ac. Morbi sagittis sagittis semper. Duis felis urna, vehicula sit amet dapibus at, viverra at purus. Nunc at ligula velit.",
+            regularPrice: 240.00,
+            price: 210.00,
+            sku: "HN0013",
+            quantity: 100,
+            review: 140,
+            category: "Men Fashion",
+            image: require("../assets/images/product/product-13.jpg"),
+            images: [
+                require("../assets/images/product/product-13.jpg"),
+                require("../assets/images/product/product-3.jpg"),
+                require("../assets/images/product/product-4.jpg"),
+                require("../assets/images/product/product-5.jpg"),
+                require("../assets/images/product/product-6.jpg"),
+            ]
+        },
+        {
+            id: 14,
+            title: "PEN WITH PAD",
+            short_description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id lobortis dui, a faucibus arcu. " +
+                "Suspendisse et neque dui. Aliquam ut condimentum sapien. Nunc fringilla et nibh in faucibus. " +
+                "Vivamus leo dui, vestibulum vitae lectus fermentum, rhoncus interdum eros. Mauris a sapien pulvinar, pharetra lorem sed, vulputate massa. " +
+                "Proin congue purus ac dui molestie eleifend. Sed id condimentum augue. Proin molestie viverra felis, quis ornare nulla ullamcorper vel." +
+
+                "Morbi neque tellus, egestas pellentesque blandit ac, ultrices mollis nulla. Aenean vel placerat ligula. Phasellus in tristique turpis." +
+                "Maecenas tristique ipsum orci, vitae sagittis felis convallis nec. Morbi molestie diam lectus, a consectetur sapien malesuada sit amet. " +
+                "Nunc elementum neque et semper laoreet. Cras vehicula massa ac arcu gravida commodo. Curabitur sit amet accumsan quam, a condimentum dui. " +
+                "Nunc a justo sed mi cursus rhoncus. Quisque finibus enim id massa fringilla, sit amet condimentum metus vulputate. " +
+
+                "Maecenas eget arcu vitae erat euismod bibendum eu nec velit. Mauris quis lorem pharetra, volutpat nulla in, consequat nisi. " +
+                "Sed cursus nunc vitae posuere eleifend. Pellentesque imperdiet maximus massa, eget congue sem ultricies ac. Morbi sagittis sagittis semper. " +
+                "Duis felis urna, vehicula sit amet dapibus at, viverra at purus. Nunc at ligula velit.",
+            regularPrice: 270.00,
+            price: 260.00,
+            sku: "HN0014",
+            quantity: 100,
+            review: 150,
+            category: "Gaming",
+            image: require("../assets/images/product/product-14.jpg"),
+            images: [
+                require("../assets/images/product/product-14.jpg"),
+                require("../assets/images/product/product-3.jpg"),
+                require("../assets/images/product/product-4.jpg"),
+                require("../assets/images/product/product-5.jpg"),
+                require("../assets/images/product/product-6.jpg"),
+            ]
+        },
+    ]
+}

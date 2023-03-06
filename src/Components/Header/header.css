@@ -1,0 +1,44 @@
+.active {
+    color: #ffffff;
+}
+
+#mobile_menu .active {
+    color: #FD3D57;
+}
+
+/* Mobile Menu */
+#mobile_menu {
+    position: fixed;
+    top: 0;
+    left: -1000px;
+    transition: 0.3s ease-in-out;
+}
+
+.show_menu {
+    left: 0 !important;
+}
+
+/* Mobile Category */
+#mobile_category {
+    position: fixed;
+    top: 0;
+    left: -1000px;
+    transition: 0.3s ease-in-out;
+}
+
+.show_category {
+    left: 0 !important;
+}
+
+/* Mobile Search */
+#search_bar {
+    position: fixed;
+    top: -1000px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s ease-in-out;
+}
+
+.show_search_bar {
+    top: 97px !important;
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-poppins;
+        margin: 0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-nato;
+    }
+}
+
+@layer components {
+    .size-selector input:checked + label {
+        @apply bg-primary text-white;
+    }
+
+    .size-selector-popup input:checked + label {
+        @apply bg-primary text-white;
+    }
+
+    .size-selector-mobile input:checked + label {
+        @apply bg-primary text-white;
+    }
+
+    .color-selector input:checked + label {
+        @apply ring-2 ring-primary;
+    }
+
+    .color-selector-popup input:checked + label {
+        @apply ring-2 ring-primary;
+    }
+
+    .color-selector-mobile input:checked + label {
+        @apply ring-2 ring-primary;
+    }
+
+    #category_bar {
+        position: absolute;
+        top: 78px;
+        left: -1000px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .show_category {
+        left: 0 !important;
+    }
+
+    .input-box {
+        @apply block w-full border border-gray-300 px-4 py-3 text-gray-600 text-sm rounded placeholder-gray-400 focus:border-primary focus:ring-0
+    }
+}
+
