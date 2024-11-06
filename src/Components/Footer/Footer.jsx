@@ -106,8 +106,8 @@ function Footer(props) {
                 <div className="copyright bg-gray-800 py-4">
                     <div className="container block md:flex items-center justify-between">
                         <p className="text-white">
-                            © 2023 - All Rights Reserved Design By
-                            <a href="https://roshannafiz.com" className="text-primary underline ml-4" target="_blank"
+                            © 2025 - All Rights Reserved Design By
+                            <a href="https://iam-nafiz.vercel.app" className="text-primary underline ml-4" target="_blank"
                                rel="noreferrer">
                                 Roshan Nafiz
                             </a>
