@@ -82,7 +82,7 @@ function Footer(props) {
                                             <div
                                                className="text-sm flex space-x-2 text-gray-500 hover:text-gray-900 block">
                                                 <SlLocationPin className="w-5"/>
-                                                <span className="break-all">Tanore Rajshahi,Bangladesh 2050 BD</span>
+                                                <span className="break-all">Tanore Rajshahi, Bangladesh 2050 BD</span>
                                             </div>
                                             <div
                                                className="text-sm flex items-center space-x-2 text-gray-500 hover:text-gray-900 block">
@@ -92,7 +92,7 @@ function Footer(props) {
                                             <div
                                                className="text-sm flex items-center space-x-2 text-gray-500 hover:text-gray-900 block">
                                                 <GoMail className="w-5"/>
-                                                <span className="break-all">contact.roshannafiz@gmail.com</span>
+                                                <span className="break-all">roshansaihamnafiz@gmail.com</span>
                                             </div>
                                         </div>
                                     </div>
